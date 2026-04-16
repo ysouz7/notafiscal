@@ -1,0 +1,89 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff1fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box, .nota {
+    background: #ffffff;
+    width: 420px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #815ad8;
+}
+
+label {
+    font-size: 14px;
+    color: #555;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+    transition: 0.2s;
+}
+
+input:focus, select:focus {
+    border-color: #111;
+    background: #fff;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #111;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #333;
+}
+
+p {
+    margin: 6px 0;
+    color: #333;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #111;
+}
+
+.nota {
+    border-top: 4px solid #111;
+}
+
+.detalhes {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 14px;
+}
